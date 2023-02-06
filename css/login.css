@@ -1,0 +1,55 @@
+/* estilizacao da seção do título */
+section#mensagens-inicio {
+    padding: 2rem;
+    background-color: var(--background-clean);
+}
+
+#nome-empresa {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0.8rem;
+    color: var(--cor-da-empresa);
+}
+
+/* estilizacao da seção input */
+#cadastro {
+    display: flex;
+    flex-direction: row;
+}
+
+#div_input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+#img_cadastro {
+    margin: 2rem 0 2rem 15rem;
+    
+}
+
+#label_input {
+    padding: 2rem 0 1.5rem 0;
+    font-weight: 900;
+    color: grey;
+    font-size: 30px;
+}
+
+#input_btn {
+    margin-top: 4rem;
+    width: 80%;
+    padding: 1.5rem;
+    background-color: var(--cor-da-empresa);
+    border: 2px solid var(--cor-da-empresa);
+    border-radius: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--background-clean);
+    transition: 0.5s;
+}
+
+#input_btn:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: var(--cor-da-empresa-escuro);
+}

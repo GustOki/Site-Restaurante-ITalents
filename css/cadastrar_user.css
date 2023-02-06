@@ -1,0 +1,33 @@
+#titulo {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0.8rem;
+    color: var(--cor-da-empresa);
+    text-align: center;
+}
+
+#div_input {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+::-webkit-input-placeholder{
+    color: grey;
+}
+
+#input-img {
+    border: 4px solid var(--cor-da-empresa);
+    border-radius: 24px;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    padding: 3rem;
+}
+
+#input_btn {
+    margin: auto;
+    margin-top: 3rem;
+}
