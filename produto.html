@@ -5,73 +5,190 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style-padrao.css">
+    <link rel="stylesheet" href="css/produto.css">
     <title>PRODUTOS</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><i class="bi bi-list-nested"></i></i></li>
-                <li><i class="bi bi-geo-alt-fill"></i></li>
-                <li><p>Brasília, DF</p></li>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <a href="login.html"><li><i class="bi bi-person-circle"></i></i></li></a>
+                
+                <li id="imagem-localizacao"><i class="bi bi-geo-alt-fill"></i><p class="nome-localizacao">Brasília, DF</p></li>
                 <li><i class="bi bi-card-image"></i></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <i class="bi bi-chevron-double-left"></i>
-        <i class="bi bi-heart-fill"></i>
-    </section>
+    <main>
+        <section class="banner">
+            <h1 class="titulo-banner">PRODUTOS</h1>
+        </section>
 
-    <section>
-        <h1>NOME DO PRODUTO</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsa quibusdam qui corporis neque velit, autem vero? Dicta, consequuntur? Corrupti.</p>
-
-        <div>
-            <img src="https://png.pngtree.com/png-vector/20190120/ourlarge/pngtree-gallery-vector-icon-png-image_470660.jpg" 
-                alt="imagem do produto">
-
-                <div>
-                    <i class="bi bi-dash-square"></i>
-                    <p>1</p>
-                    <i class="bi bi-plus-square"></i>
-                </div>
-        </div>
-
-        <div>
-            <p>Preço Unitário</p>
-            <p>R$ 00000,00</p>
-
-            <p>Preço Total</p>
-            <p>R$ 00000,00</p>
-        </div>
-
-        <div>
-            <i class="bi bi-cart-plus"></i>
-            <button>ADICIONAR AO CARRINHO</button>
-        </div>
-    </section>
-
-    <footer>
-        <ul>
-            <li>
-                <a href=""><i class="bi bi-house-fill"></i> <p>HOME</p></a>
-            </li>
+        
+        <section class="container_box">
             
-            <li>
-                <a href=""><i class="bi bi-emoji-smile"></i> <p>PERFIL</p></a>
-            </li>
+            <div class="dados">
+                <div class="container_fav">
+                    <button class="btn-fav"><i class="bi bi-heart fav_icon"></i></button>
+                </div>
 
-            <li>
-                <a href=""><i class="bi bi-receipt"></i> <p>CUPONS</p></a>
-            </li>
+                <h2 class="titulo-prod">COMBO HAMBURGUER</h2>
+                
+                <div class="container_dados">
+                    <p class="etiqueta">Preço unitário:</p>
+                    <p class="etiqueta preco">R$ 30,00</p>
+                </div>
+                
+                <div class="btn-addcarrinho-container">
+                    <button class="btn-addcarrinho"><i class="bi bi-cart-plus"></i>ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+            
+            
+            <div class="box" id="box-produto1">
+                <img src="https://landingo.com.br/wp-content/uploads/2022/10/combo-hamburguer-artesanal-burger-batata-chips-coca-cola-lata-landingo.png" 
+                alt="imagem do produto" class="imagem">
+            </div>
+        </section>
 
-            <li>
-                <a href=""><i class="bi bi-stickies"></i> <p>PEDIDOS</p></a>
-            </li>
-        </ul>
-    </footer>
+        <section class="container_box">
+            
+            <div class="dados">
+                <div class="container_fav">
+                    <button class="btn-fav"><i class="bi bi-heart fav_icon"></i></button>
+                </div>
+
+                <h2 class="titulo-prod">MILKSHAKE</h2>
+                
+                <div class="container_dados">
+                    <p class="etiqueta">Preço unitário:</p>
+                    <p class="etiqueta preco">R$ 9,00</p>
+                </div>
+                
+                <div class="btn-addcarrinho-container">
+                    <button class="btn-addcarrinho"><i class="bi bi-cart-plus"></i>ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+            
+            
+            <div class="box" id="box-produto1">
+                <img src="https://static-images.ifood.com.br/image/upload/t_high/pratos/8df74f12-8e7f-488d-b34a-9734262a6cef/201903161630_milks.png" 
+                alt="imagem do produto" class="imagem">
+            </div>
+        </section>
+
+        <section class="container_box">
+            
+            <div class="dados">
+                <div class="container_fav">
+                    <button class="btn-fav"><i class="bi bi-heart fav_icon"></i></button>
+                </div>
+
+                <h2 class="titulo-prod">HOT-DOG</h2>
+                
+                <div class="container_dados">
+                    <p class="etiqueta">Preço unitário:</p>
+                    <p class="etiqueta preco">R$ 15,00</p>
+                </div>
+                
+                <div class="btn-addcarrinho-container">
+                    <button class="btn-addcarrinho"><i class="bi bi-cart-plus"></i>ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+            
+            
+            <div class="box" id="box-produto1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Hot_dog_with_mustard.png/1200px-Hot_dog_with_mustard.png" 
+                alt="imagem do produto" class="imagem">
+            </div>
+        </section>
+
+        <section class="container_box">
+            
+            <div class="dados">
+                <div class="container_fav">
+                    <button class="btn-fav"><i class="bi bi-heart fav_icon"></i></button>
+                </div>
+
+                <h2 class="titulo-prod">CREPE</h2>
+                
+                <div class="container_dados">
+                    <p class="etiqueta">Preço unitário:</p>
+                    <p class="etiqueta preco">R$ 15,00</p>
+                </div>
+                
+                <div class="btn-addcarrinho-container">
+                    <button class="btn-addcarrinho"><i class="bi bi-cart-plus"></i>ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+            
+            
+            <div class="box" id="box-produto1">
+                <img src="https://acaidabarra.com.br/wp-content/uploads/2021/12/CREPE-FRANCES-SUICO-QUEIJITOS-1024x512.png" 
+                alt="imagem do produto" class="imagem">
+            </div>
+        </section>
+
+        <section class="container_box">
+            
+            <div class="dados">
+                <div class="container_fav">
+                    <button class="btn-fav"><i class="bi bi-heart fav_icon"></i></button>
+                </div>
+
+                <h2 class="titulo-prod">BEBIDAS</h2>
+                
+                <div class="container_dados">
+                    <p class="etiqueta">Preço unitário:</p>
+                    <p class="etiqueta preco">R$ 5,00</p>
+                </div>
+                
+                <div class="btn-addcarrinho-container">
+                    <button class="btn-addcarrinho"><i class="bi bi-cart-plus"></i>ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+            
+            
+            <div class="box" id="box-produto1">
+                <img src="https://pizzariaqueromais.separapramim.com.br/image/cache/catalog/store/j7PhhAGeZlRT8uNi9DRLVRxzwEslajOvabPoeR9x1590794427000_dpzdv_Untitled-2-500x500.png" 
+                alt="imagem do produto" class="imagem">
+            </div>
+        </section>
+    
+        <footer id="footer" class="footer">
+            <ul class="footer-card">
+                <a href="home.html">
+                    <li class="footer-item">
+                        <i class="bi bi-house-fill"></i>
+                        <p class="footer-nome-item">HOME</p>
+                    </li>
+                </a>
+                
+                <a href="cadastrar_user.html">
+                    <li class="footer-item">
+                        <i class="bi bi-emoji-smile"></i> 
+                        <p class="footer-nome-item">CADASTRO USUÁRIO</p>
+                    </li>
+                </a>
+
+                <a href="cadastrar_produto.html">
+                    <li class="footer-item">
+                        <i class="bi bi-upc-scan"></i>
+                        <p class="footer-nome-item">CADASTRO DE PRODUTO</p>
+                    </li>
+                </a>
+
+                <a href="carrinho.html">
+                    <li class="footer-item">
+                        <i class="bi bi-cart"></i>
+                        <p class="footer-nome-item">CARRINHO</p>
+                    </li>
+                </a>
+            </ul>
+        </footer>
+    </main>
 
 
 

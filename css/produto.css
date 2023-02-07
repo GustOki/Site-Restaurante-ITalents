@@ -1,0 +1,103 @@
+.container_box {
+    width: 80%;
+    height: 400px;
+    margin: 4rem auto;
+    border: 4px solid var(--cor-da-empresa);
+    border-radius: 20px;
+    background-color: var(--cor-da-empresa);
+}
+
+.imagem {
+    width: 320px;
+    height: 320px;
+}
+
+.box {
+    width: 320px;
+    height: 320px;
+    margin: 2rem 2rem 2rem 5rem;
+    border: 2px solid antiquewhite;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+.dados {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    margin: 2rem 1rem 2rem 1rem;
+    color: var(--cor-da-empresa);
+    font-size: 20px;
+}
+
+.titulo-prod {
+    color: antiquewhite;
+    font-size: 40px;
+}
+
+.container_fav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-fav {
+    cursor: pointer;
+    width: 7%;
+    border: none;
+    background-color: transparent;
+}
+
+.fav_icon {
+    color: antiquewhite;
+    font-size: 30px;
+    margin-right: 3rem;
+}
+
+.container_dados {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+
+.etiqueta {
+    display: flex;
+    color: black;
+    font-size: 35px;
+    
+}
+
+.preco {
+    margin-left: 1rem;
+}
+
+.btn-addcarrinho-container {
+    margin-top: 5rem;
+}
+
+.btn-addcarrinho {
+    cursor: pointer;
+    border: 3px solid antiquewhite;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 1rem;
+    scale: 1.5;
+    font-size: 15px;
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+.bi-cart-plus {
+    margin: 0 1rem;
+    font-size: 20px;
+}
+
+.btn-addcarrinho:hover {
+    color: var(--cor-da-empresa);
+    background-color: antiquewhite;
+    transform: scale(1.1);
+    transition: 0.5s;
+}

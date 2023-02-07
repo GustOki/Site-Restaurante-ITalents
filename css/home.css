@@ -21,7 +21,7 @@ section#mensagens-inicio {
 section#input {
     display: flex;
     padding-top: 2rem;
-    width: 90%;
+    width: 70%;
     margin: auto;
     align-items: center;
 }
@@ -30,7 +30,7 @@ i.bi-search {
     position: absolute;
     color: var(--cor-da-empresa);
     padding: 3rem 0 3rem 4rem;
-    
+    margin-left: 2rem;
     font-size: 40px;
 }
 

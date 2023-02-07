@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style-padrao.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>LOGIN</title>
 </head>
 <body>
@@ -19,22 +20,20 @@
     </header>
 
     <main>
-        <section id="mensagens-inicio">
-            <h1 id="nome-empresa">NOME DA EMPRESA</h1>
+        <section class="banner">
+            <h1 class="titulo-banner">FAÇA SEU LOGIN</h1>
         </section>
 
-        <section id="cadastro">
-            <div id="div_input">
-                <label id="label_input" for="">LOGIN:</label>
-                <input id="input-text" type="text">
-                
-                <label id="label_input" for="">SENHA:</label>
-                <input id="input-text" type="text">
-                
-                <button id="input_btn">REALIZAR LOGIN</button>
+        <section id="section_input">
+            
+            <div class="input_container">
+                <label class="label-input" for="tex-input-login">LOGIN:</label>
+                <input class="input_text" id="tex-input-login" type="text">
+                <label class="label-input" for="tex-input-senha">SENHA:</label>
+                <input class="input_text" id="tex-input-senha" type="text">
             </div>
-            <img src="https://i.pinimg.com/originals/a5/65/2f/a5652f118608abcae0075a5b0c77c32d.jpg " width="500" height="400" alt="" id="img_cadastro">
-
+            
+            <button id="btn_logar">ENTRAR</button>
         </section>
 
         <footer id="footer" class="footer">
@@ -70,7 +69,7 @@
                 <a href="produto.html">
                     <li class="footer-item">
                         <i class="bi bi-stickies"></i>
-                        <p class="footer-nome-item">PRODUTO</p>
+                        <p class="footer-nome-item">PRODUTOS</p>
                     </li>
                 </a>
             </ul>

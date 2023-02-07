@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-@import url(./home.css);
-@import url(./login.css);
-@import url(./cadastro.css);
-@import url(./carrinho.css);
 
 * {
     font-family: 'Lato', sans-serif;
@@ -66,6 +62,20 @@ ul li#imagem-localizacao {
 .bi-card-image {
     font-size: 60px;
     color: var(--background-clean);
+}
+
+/* estilizacao banner e titulo-banner */
+.banner {
+    padding: 2rem;
+    background-color: var(--background-clean);
+}
+
+.titulo-banner {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    color: var(--cor-da-empresa);
 }
 
 /* estilizacao do footer */

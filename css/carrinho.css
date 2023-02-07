@@ -38,15 +38,19 @@
     justify-content: center;
     flex-direction: row;
     padding-top: 2rem;
-
 }
 
 .btn-quantidade {
+    cursor: pointer;
     border: none;
     border-radius: 20px;
     width: 15%;
     height: 70px;
     background-color: var(--cor-da-empresa);
+}
+
+.btn-quantidade:active {
+    background-color: var(--cor-da-empresa-escuro);
 }
 
 .bi-dash-square, .bi-plus-square {
@@ -71,11 +75,18 @@
 }
 
 .btn-lixo {
+    cursor: pointer;
     border: none;
     border-radius: 20px;
     width: 15%;
     height: 70px;
     background-color: red;
+    transition: 0.5s;
+}
+
+.btn-lixo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .bi-trash3-fill {
@@ -84,13 +95,20 @@
 }
 
 #input-text {
-    width: 40%;
+    width: 30%;
     text-align: center;
+    margin-right: 6rem;
+    padding: 1rem;
+    border: 2px solid var(--cor-da-empresa);
+    border-radius: 20px;
+    font-size: 20px;
 }
 
 #btn-aplicar {
+    cursor: pointer;
     width: 20%;
     padding: 1.5rem;
+    margin-right: 17rem;
     background-color: var(--cor-da-empresa);
     border: 2px solid var(--cor-da-empresa);
     border-radius: 24px;
@@ -114,7 +132,7 @@
 #total_container{
     display: flex;
     flex-direction: column;
-    margin: 8rem 0 3rem 8rem;
+    margin: 5rem 0 0 8rem;
 }
 
 #total {
@@ -142,6 +160,7 @@
 }
 
 #btn-pagar {
+    cursor: pointer;
     float: right;
     margin-right: 1.5rem;
     width: 20%;

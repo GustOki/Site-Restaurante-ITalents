@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style-padrao.css">
-    <title>CADASTRO PRODUTO</title>
+    <link rel="stylesheet" href="css/cadastro_prod.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -21,31 +22,40 @@
     </header>
 
     <main>
-        <section id="mensagens-inicio">
-            <h1 id="titulo">CADASTRO DE PRODUTO</h1>
+        <section class="banner">
+            <h1 class="titulo-banner">CADASTRO DE PRODUTO</h1>
         </section>
-            
-        <section>
-            <form action="">
-                <div id="div_input">
-                    <label id="label_input" for="">NOME DO PRODUTO:</label>
-                    <input id="input-text" type="text">
-    
-                    <label id="label_input" for="">DESCRIÇÃO DO PRODUTO:</label>
-                    <input id="input-text" type="text">
-    
-                    <label id="label_input" for="">CATEGORIA:</label>
-                    <input id="input-text" type="text">
-    
-                    <label id="label_input" for="">PREÇO UNITÁRIO:</label>
-                    <input id="input-text"  type="number">
-    
-                    <label id="label_input" for="">CÓDIGO DE BARRAS:</label>
-                    <input id="input-text"  type="number">
-    
-                    <button id="input_btn">CADASTRAR PRODUTO</button>
-                </div>
-            </form>
+
+        <section class="section_input">
+            <div class="input_container">
+                <label class="label-input" for="">NOME DO PRODUTO:</label>
+                <input class="input" type="text">
+            </div>
+
+            <div class="input_container">
+                <label class="label-input" for="">DESCRIÇÃO DO PRODUTO:</label>
+                <input class="input" type="text">
+            </div>
+
+            <div class="input_container">
+                <label class="label-input" for="">CATEGORIA:</label>
+                <input class="input" type="text">
+            </div>
+
+            <div class="input_container">
+                <label class="label-input" for="">PREÇO UNITÁRIO:</label>
+                <input class="input" type="number">
+            </div>
+
+            <div class="input_container">
+                <label class="label-input" for="">CÓDIGO DE BARRAS:</label>
+                <input class="input" type="number">
+            </div>
+
+            <div class="input_container">
+                <button class="btn">CADASTRAR PRODUTO</button>
+            </div>
+
         </section>
 
         <footer id="footer" class="footer">
@@ -74,13 +84,12 @@
                 <a href="produto.html">
                     <li class="footer-item">
                         <i class="bi bi-stickies"></i>
-                        <p class="footer-nome-item">PRODUTO</p>
+                        <p class="footer-nome-item">PRODUTOS</p>
                     </li>
                 </a>
 
             </ul>
         </footer>
     </main>
-
 </body>
 </html>

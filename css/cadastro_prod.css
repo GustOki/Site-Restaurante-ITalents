@@ -21,7 +21,7 @@
 }
 
 .input {
-    width: 100%;
+    width: 80%;
     height: 50%;
     border: 2px solid var(--cor-da-empresa);
     border-radius: 24px;
