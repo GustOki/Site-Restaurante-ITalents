@@ -195,7 +195,7 @@ section#avaliacao {
     i.bi-search {
         position: absolute;
         margin-right: 3rem;
-        padding-left: 1.5rem;
+        padding-left: 1px;
     }
 
     #categoria-ul {
@@ -215,4 +215,18 @@ section#avaliacao {
         display: none;
     }
     
+}
+
+@media screen and (width: 768px) {
+    #categoria-ul {
+        flex-wrap: wrap;
+        margin-right: 2.5rem;
+    }
+}
+
+@media screen and (width: 1024px) {
+    #categoria-ul {
+        flex-wrap: wrap;
+        margin-right: 2.5rem;
+    }
 }

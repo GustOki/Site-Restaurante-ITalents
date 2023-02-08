@@ -8,29 +8,35 @@
 .input_container {
     display: flex;
     flex-direction: column;
-    margin-left: 4rem;
+    margin-left: 15rem;
 }
 
 .label-input {
-    margin: 2rem 0 1rem 0;
+    display: flex;
+    margin: 2rem 0 1rem 2rem;
     font-size: 25px;
     font-weight: 700;
     color: grey;
 }
 
 .input_text {
+    display: flex;
     width: 40%;
     border: 2px solid var(--cor-da-empresa);
     border-radius: 24px;
-    padding: 1rem 1rem 1rem 4rem;
-    font-size: 18px;
+    padding: 1rem 1rem 1rem 2rem;
+    font-size: 20px;
+}
+
+#btn-container {
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 15rem;
 }
 
 .btn_logar {
-    margin-top: 4rem;
-    width: 30%;
-    padding: 1.5rem;
-    margin-left: 4rem;
+    width: 46%;
+    padding: 1rem;
     background-color: var(--cor-da-empresa);
     border: 2px solid var(--cor-da-empresa);
     border-radius: 24px;
@@ -62,4 +68,91 @@
     z-index: 999;
     font-size: 20px;
     cursor: pointer;
+}
+
+/* parte responsiva */
+
+@media screen and (max-width: 480px) {
+    .input_container {
+        margin: auto;
+    }
+
+    .label-input {
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .input_text {
+        width: 70%;
+        margin: auto;
+        padding: .8rem;
+    }
+
+    #btn-container {
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+
+    .btn_logar {
+        width: 75%;
+    }
+}
+
+@media screen and (width: 425px) {
+    .input_text {
+        margin: auto;
+    }
+
+    #btn-container {
+        margin-left: 5.5rem;
+    }
+}
+
+@media screen and (width: 768px) {
+    .input_container {
+        margin-left: 5rem;
+    }
+
+    .label-input {
+        margin-left: 2rem;
+    }
+
+    .input_text {
+        padding: 1rem;
+        width: 60%;
+    }
+
+    #btn-container {
+        margin-left: 6rem;
+    }
+
+    .btn_logar {
+        width: 60%;
+    }
+}
+
+@media screen and (width: 1024px) {
+    .input_container {
+        margin-left: 5rem;
+    }
+
+    .label-input {
+        margin-left: 2rem;
+        font-size: 30px;
+    }
+
+    .input_text {
+        padding: 1rem;
+        width: 60%;
+    }
+
+    #btn-container {
+        margin-left: 5.5rem;
+    }
+
+    .btn_logar {
+        width: 60%;
+        font-size: 30px;
+    }
 }

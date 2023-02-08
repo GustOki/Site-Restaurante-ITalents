@@ -54,3 +54,18 @@
     background-color: var(--cor-da-empresa-escuro);
     transition: 0.5s;
 }
+
+@media screen and (max-width: 480px) {
+    .section_input {
+        margin-left: 2rem;
+    }
+
+    .input {
+        padding: 1rem 1rem 1rem 2rem;
+        width: 75%;
+    }
+
+    .input_container {
+        padding-right: 1rem;
+    }
+}

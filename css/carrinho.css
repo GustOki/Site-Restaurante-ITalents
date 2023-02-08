@@ -178,3 +178,216 @@
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+@media screen and (max-width: 480px) {
+    .container_box {
+        display: flex;
+    }
+
+    .container_dados{
+        padding-top: 1rem;
+    }
+
+    .titulo_produto {
+        font-size: 30px;
+    }
+
+    .imagem {
+        display: none;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .dados {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .btn-quantidade {
+        width: 20%;
+    }
+
+    .preco {
+        padding-top: 1rem;
+        font-size: 50px;
+    }
+
+    .btn-lixo {
+        width: 30%;
+    }
+
+    #div_input {
+        flex-direction: column;
+    }
+
+    
+    #input-text {
+        width: 70%;
+        font-size: 20px;
+        margin: auto;
+    }
+    
+    #btn-aplicar {
+        scale: 0.8;
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    #total_container{
+        margin: 3rem 0 0 3rem;
+    }
+
+    #btn-pagar {
+        width: 80%;
+        margin: auto;
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (width: 320px) {
+    .container_box{
+        margin-left: 1rem;
+        width: 88%;
+    }
+    
+    .titulo_produto {
+        font-size: 20px;
+    }
+
+    #total_container{
+        margin: 3rem 0 0 1rem;
+    }
+
+    .btn-quantidade {
+        width: 30%;
+    }
+}
+
+@media screen and (width: 375px) {
+    .titulo_produto {
+        font-size: 26px;
+    }
+
+    .btn-quantidade {
+        width: 25%;
+    }
+}
+
+@media screen and (width: 768px) {
+    #box-produto1 {
+        margin: 1rem;
+        padding: 1rem;
+        width: 300px;
+        height: 300px;
+    }
+
+    .imagem {
+        width: 280px;
+        height: 280px;
+    }
+
+    .dados {
+        width: 40%;
+        margin: 0.5rem;
+    }
+
+    .btn-quantidade {
+        width: 30%;
+    }
+
+    .preco {
+        padding: 0.5rem;
+    }
+
+    .btn-lixo {
+        width: 30%;
+    }
+
+    #div_input {
+        margin-left: 1rem;
+    }
+
+    #input-text {
+        width: 40%;
+        margin-right: 2rem;
+    }
+
+    #btn-aplicar {
+        width: 30%;
+        margin: 0 5rem 0 1rem;
+    }
+
+    #btn-pagar {
+        width: 80%;
+    }
+}
+
+@media screen and (width: 1024px) {
+    .imagem {
+        display: flex;
+        justify-content: center;
+        width: 280px;
+        height: 280px;
+        margin: auto;
+        margin-right: 1rem;
+        margin-left: 0.95rem;
+    }
+
+    .btn-lixo {
+        width: 20%;
+    }
+
+    #input-text {
+        width: 80%;
+        margin-left: 6.5rem;
+        margin-right: 2rem;
+    }
+
+    #btn-aplicar {
+        width: 40%;
+        margin-right: 6.5rem;
+    }
+
+    #btn-pagar-container {
+        margin-right: 5rem;
+    }
+    
+    #btn-pagar {
+        width: 50%;
+    }
+}
+
+@media screen and (width: 1440px) {
+    .titulo_produto {
+        font-size: 32px;
+    }
+    
+    .btn-quantidade {
+        width: 13%;
+    }
+
+    #input-text {
+        width: 80%;
+        margin-left: 9rem;
+        margin-right: 2rem;
+        font-size: 35px;
+    }
+
+    #btn-aplicar {
+        width: 40%;
+        margin-right: 9rem;
+    }
+
+    #btn-pagar-container {
+        margin-right: 5rem;
+    }
+    
+    #btn-pagar {
+        width: 50%;
+    }
+}

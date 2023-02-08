@@ -54,3 +54,35 @@
     background-color: var(--cor-da-empresa-escuro);
     transition: 0.5s;
 }
+
+@media screen and (max-width: 480px) {
+    .section_input {
+        margin-left: 2rem;
+    }
+
+    .input {
+        padding: 1rem 1rem 1rem 2rem;
+        width: 75%;
+    }
+
+    #input_foto {
+        width: 75%;
+        padding-left: 2rem;
+    }
+
+    .input_container {
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (width: 768px) {
+    #input_foto {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (width: 1024px) {
+    #input_foto {
+        padding-left: 10rem;
+    }
+}

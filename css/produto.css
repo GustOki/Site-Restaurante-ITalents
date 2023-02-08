@@ -112,3 +112,40 @@ i.red {
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+/* parte responsiva */
+
+@media screen and (max-width: 480px) {
+    .container_box {
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    .box {
+        margin: auto;
+        margin-top: 1rem;
+        width: 220px;
+        height: 220px;
+    }
+
+    .imagem {
+        width: 200px;
+        height: 200px;
+        margin: 0.5rem;
+    }
+
+    .container_fav {
+        display: none;
+    }
+
+    .titulo-prod {
+        display: none;
+    }
+
+    .dados {
+        display: none;
+    }
+
+    .btn-addcarrinho-container {
+        display: none;
+    }
+}
