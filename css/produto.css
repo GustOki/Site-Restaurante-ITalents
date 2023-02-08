@@ -48,12 +48,23 @@
     width: 7%;
     border: none;
     background-color: transparent;
+    transition: 0.5s;
 }
 
-.fav_icon {
+.btn-fav:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+i.bi-heart-fill {
     color: antiquewhite;
     font-size: 30px;
     margin-right: 3rem;
+    transition: 0.5s;
+}
+
+i.red {
+    color: rgb(121, 0, 0);
 }
 
 .container_dados {
