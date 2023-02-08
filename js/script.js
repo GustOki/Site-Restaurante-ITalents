@@ -1,10 +1,11 @@
+// pega o btn
 let btnAdd = document.querySelector('#addBtn');
 
 // (login) criando evento de click para o btn, executando a function anonima
 btnAdd.addEventListener("click", function(){
-    let inputValor = document.querySelector('#input').value;
-
-    if(inputValor === ""){
+    // verifica se o input esta vazio
+    const inputValue = document.querySelector('#input').value;
+    if(inputValue === ""){
         alert("Você não preencheu todos os campos!");
     }else{
         //alert("Login realizado com sucesso!");

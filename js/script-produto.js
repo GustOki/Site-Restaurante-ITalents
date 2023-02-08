@@ -1,4 +1,4 @@
-//editando btn favoritar
+//script p/ favoritar
 let coracao = document.querySelector(".bi-heart-fill");
 coracao.addEventListener('click', function(event){
     //dentro da target tudo que estiver o nome de I
