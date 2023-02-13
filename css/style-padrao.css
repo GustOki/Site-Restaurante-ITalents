@@ -13,6 +13,7 @@ body {
 
 :root {
     --background-clean: beige;
+    --background-clean-escuro: rgb(219, 219, 195);
     --cor-da-empresa: #ff6161;
     --cor-da-empresa-escuro: #fd4545;
 }
@@ -42,9 +43,6 @@ body {
 
 ul li#imagem-localizacao {
     display: flex;
-    padding-right: 0;
-    padding-left: 5rem;
-    margin-right: 0.8rem;
     align-items: center;
 }
 
@@ -53,15 +51,37 @@ ul li#imagem-localizacao {
     color: var(--background-clean);
 }
 
-.nome-localizacao {
-    font-size: 40px;
-    padding-left: 0;
-    padding-right: 5rem;
+#cep {
+    border: 2px solid var(--background-clean);
+    background-color: transparent;
+    border-radius: 20px;
+    color: var(--background-clean);
+    padding-left: 1rem;
+    font-size: 20px;
+    width: 40%;
 }
 
-.bi-card-image {
-    font-size: 60px;
-    color: var(--background-clean);
+.nome-localizacao {
+    font-size: 22px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#btn_cep {
+    border: 2px solid var(--background-clean);
+    border-radius: 20px;
+    background-color: var(--background-clean);
+    padding: 0.5rem;
+    width: 50px;
+    transition: 0.5s;
+}
+
+#btn_cep:hover {
+    cursor: pointer;
+    background-color: var(--background-clean-escuro);
+    border-color: var(--background-clean-escuro);
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 /* estilizacao banner e titulo-banner */
@@ -141,7 +161,11 @@ i.bi-stickies {
         display: flex;
     }
     
-    i.bi-geo-alt-fill, .nome-localizacao, i.bi-card-image {
+    i.bi-geo-alt-fill, .nome-localizacao {
+        display: none;
+    }
+
+    #cep, #btn_cep {
         display: none;
     }
 

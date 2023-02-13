@@ -13,8 +13,12 @@
     <header class="cabecalho">
         <nav class="menu">
             <ul class="ul-menu">
-                <li id="imagem-localizacao"><i class="bi bi-geo-alt-fill"></i><p class="nome-localizacao">Brasília, DF</p></li>
-                <li><i class="bi bi-card-image"></i></li>
+                <li id="imagem-localizacao">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <input id="cep" type="text" placeholder="Digite seu CEP">
+                    <p class="nome-localizacao"></p>
+                    <button id="btn_cep" onclick="consultaEndereco()">OK</button>
+                </li>
             </ul>
         </nav>
     </header>
